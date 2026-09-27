@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(){
     int n,i,arr[10];
-    for (i=1;i<11;i++){
-        arr[i]=i*5;
+    for (i=0;i<10;i++){
+        arr[i]=(i+1)*5;
     }
-    printf("%d",arr[10]);
+    printf("%d",arr[0]);
     return 0;
 }
